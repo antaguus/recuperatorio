@@ -1,11 +1,65 @@
-h1 {
+ 
+ /* Tamaño de fuenta en todas las paginas*/
+ html {
+    font-size: 20px;
+  }
+  
+  body {
+    margin: 0;
+    background-image: url("img/fondo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+  }
+
+  /*Titulos*/
+  h1 {
     font-family: "Glegoo", serif;
     font-weight: 700;
-    font-style: normal;
-}
-
-h2, h3 {
+    font-size: 3rem;
+    text-align: center;
+  }
+  
+  h2, h3 {
     font-family: "Glegoo", serif;
     font-weight: 400;
-    font-style: normal;
-}
+    font-size: 1.5rem;
+  }
+  
+  /* Menu de navegación*/
+  .menu ul {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .menu a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 1.5rem;
+    padding: 2rem;
+  }
+  /* Lista NO ordenada */
+  main ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  main li {
+    margin-bottom: 2rem;
+  }
+  
+  /* IMAGENES */
+  main img {
+    display: block;
+    margin-top: 1rem;
+    max-width: 100%;
+    height: auto;
+  }
+
+      
